@@ -1,14 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Poppins:wght@100;200;300&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    /* overflow: hidden; */
     /* border: 1px aqua solid; */
 }
 
 ::selection {
-    /* color: white;
-    background-color: black; */
+    color: white;
+    background-color: black;
 }
 
 .container{
@@ -61,46 +64,67 @@ main {
     justify-content: center;
 }
 
-main .content {
+.content {
     width: 70vw;
     padding: 5vh;
     text-align: justify;
+    font-size: 2rem;
 }
 
-footer .footer-resources { 
+.footer-resources { 
     background-color: rgb(3, 4, 94);
-    height: 55vh;
+    height: 70vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    color: white;
+    font-family: Lato;
 }
 
-footer .footer-resources .inner-resources {
+.inner-resources {
+    margin: 5vh 0;
     display: flex;
     justify-content: center;
 }
 
-footer .footer-resources .inner-resources .resource-img {
-    /* width: 30vw; */
+.inner-resources p,
+.inner-resources a {
+    width: 100%;
+    display: inline-block;
+    font-size: 1.3rem;
+    color: #9b9b9b;
+    margin-top: 10px;
+    padding: 10px 5px;
+    text-decoration: none;
 }
 
-footer .footer-resources .inner-resources .resource-img img {
+.para-head {
+    font-size: 2.3rem;
+    font-weight: bold;
+}
+
+.resource-img {
+
+}
+
+.resource-img img {
     width: 30vw;
 }
 
-footer .footer-resources .inner-resources .contact-us {
-    background-color: yellow;
-    width: 30vw;
-    /* display: flex; */
-}
-
-footer .footer-resources .inner-resources .follow-us {
-    background-color: white;
+.main-links {
+    margin-left: 50px;
     width: 30vw;
 }
+.follow-links {
+    margin-top: 10px;
+}
 
+.follow-us .follow-links a {
+    display: inline;
+    font-size: 2.5rem;
+    margin-right: 10px;
+}
 
-footer .footer-licenses {
+.footer-licenses {
     background-color: #001836;
     height: 15vh;
     display: flex;
@@ -108,13 +132,12 @@ footer .footer-licenses {
     align-items: center;
 }
 
-footer .footer-licenses p {
-    border: 1px solid yellow;
-    color: white;
-    /* padding: 20px 0; */
+.footer-licenses p {
+    font-size: 1.3rem;
+    color: #9b9b9b;
 }
 
-footer .footer-arrow {
+.footer-arrow {
     position: fixed;
     bottom: 3vh;
     right: 5vh;
@@ -124,7 +147,7 @@ footer .footer-arrow {
     border-radius: 50%;    
 }
 
-footer .footer-arrow img {
+.footer-arrow img {
     width: 100%;
     position: absolute;
     top: 0;
