@@ -48,8 +48,8 @@ header nav ul li a {
     transition: .2s linear;
 }
 
-header ul li:hover {
-    transform: translateY(-5px);
+header nav ul li:hover {
+    transform: translateY(-20%);
 }
 
 header nav ul li a:hover {
@@ -116,7 +116,7 @@ footer .resource .contact-us a {
 
 footer .resource .follow-us a {
     display: inline-block;
-    color: #9b9b9b;
+    color: #bdbdbd;
     text-decoration: none;
     padding: 0 10px;
     font-size: 2.5rem;
@@ -138,8 +138,8 @@ footer .resource .follow-us .fa-youtube:hover {
     color: #ff0000;
 }
 
-footer .resource .follow-us .fa-twitter:hover {
-    color: #00b7ff;
+footer .resource .follow-us .fa-github:hover {
+    color: #111;
 }
 
 footer .license {
